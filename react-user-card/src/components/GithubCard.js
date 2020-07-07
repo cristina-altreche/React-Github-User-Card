@@ -8,8 +8,8 @@ return (
 <div className="card-container">
     <div className="card">
       <h1>{props.user.name}</h1>
-      <h4>{props.user.bio}</h4>
-      <h4>{props.user.location}</h4>
+      <h5>{props.user.bio}</h5>
+      <h5>{props.user.location}</h5>
     </div>
   
 </div>
