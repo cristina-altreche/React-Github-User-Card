@@ -2,7 +2,7 @@ import React from "react";
 
 function Followers(props) {
   return (
-    <div>
+    <div className="follower-container">
       <h3>Followers</h3>
       {
         props.followers.map(follower => (

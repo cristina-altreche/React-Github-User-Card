@@ -11,8 +11,8 @@ body {
 .app-container {
   text-align: center;
   background: white;
-  padding: 50px;
-  width: 30%;
+  padding: 35px;
+  width: 25%;
   border-radius: 1%;
   margin-top: 70px;
   display: flex;
@@ -27,18 +27,33 @@ h1 {
   color: #ec38bc;
 }
 
-h5 {
-  font-size: 1rem;
-  margin: 10px 0;
-  color: black;
+p{
+  text-align: left;
+  
 }
 
 h3 {
   color: #ec38bc;
+  font-size: 25px;
 }
 
 .followers {
   color: black;
   text-transform: capitalize;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.follower-container{
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: #ec38bc;
+}
+
+img {
+  border-radius: 1%;
 }
 

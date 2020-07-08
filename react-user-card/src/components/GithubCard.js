@@ -8,8 +8,9 @@ return (
 <div className="card-container">
     <div className="card">
       <h1>{props.user.name}</h1>
-      <h5>{props.user.bio}</h5>
-      <h5>{props.user.location}</h5>
+      <img src={props.user.avatar_url}></img>
+      <p><span>Bio:</span> {props.user.bio}</p>
+      <p><span>Location:</span> {props.user.location}</p>
     </div>
   
 </div>
