@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.app-container {
+  text-align: center;
+  background: white;
+  padding: 35px;
+  width: 25%;
+  border-radius: 1%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #ec38bc;
+}
+
+p{
+  text-align: left;
+  
+}
+
+h3 {
+  color: #ec38bc;
+  font-size: 25px;
+}
+
+.followers {
+  color: black;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.follower-container{
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: #ec38bc;
+}
+
+img {
+  border-radius: 1%;
+}
+
